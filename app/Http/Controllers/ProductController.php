@@ -25,4 +25,10 @@ class ProductController extends Controller
         return view('test')
             ->with("product", $product);
     }
+    public  function description(){
+        $product= Product::where("id",6)->first();
+//        dd($product);
+        return view('product.description')
+            ->with("product", $product);
+    }
 }

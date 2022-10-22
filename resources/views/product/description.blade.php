@@ -222,8 +222,8 @@ aww wow o<!doctype html>
                 </div>
             </div>
             <div class="more">
-{{--                <em>Показано <span>3</span> із <span>5</span> запитань</em>--}}
-{{--                <p>Ще <span>2</span> пропозицій</p>--}}
+                {{--                <em>Показано <span>3</span> із <span>5</span> запитань</em>--}}
+                {{--                <p>Ще <span>2</span> пропозицій</p>--}}
             </div>
         </div>
     </div>
@@ -314,5 +314,6 @@ aww wow o<!doctype html>
     </div>
     <em><span><i class="fa-solid fa-spell-check"></i></span>Знайшли помилку на цій сторінці? Виділіть її та натисніть Ctrl+Enter</em>
 </div>
-</body>
 <script src="https://kit.fontawesome.com/1e05c9e939.js" crossorigin="anonymous"></script>
+</body>
+

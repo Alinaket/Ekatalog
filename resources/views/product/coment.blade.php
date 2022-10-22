@@ -1,4 +1,4 @@
-aww wow o<!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -314,5 +314,6 @@ aww wow o<!doctype html>
     </div>
     <em><span><i class="fa-solid fa-spell-check"></i></span>Знайшли помилку на цій сторінці? Виділіть її та натисніть Ctrl+Enter</em>
 </div>
-</body>
 <script src="https://kit.fontawesome.com/1e05c9e939.js" crossorigin="anonymous"></script>
+</body>
+
