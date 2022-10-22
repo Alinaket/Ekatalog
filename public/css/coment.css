@@ -1,0 +1,18 @@
+.question h2{
+    color: #cccccd;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 25px 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.question h2 span{
+    font-size: 17px;
+    border: 1px solid rgb(93, 94, 96);
+    border-radius: 3px;
+    padding: 18px 40px;
+}
+.question h2 span:hover{
+    background: #3c3c3e;
+}

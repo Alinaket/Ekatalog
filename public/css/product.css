@@ -1,0 +1,593 @@
+.menu{
+    border-bottom: 0.5px solid #474747;
+}
+.menu ul{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.menu ul li{
+    padding: 22px 26px 22px 15px ;
+    text-align: center;
+}
+.content_product{
+    margin-left:295px;
+}
+.product{
+    padding: 0 15px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    width: 940px;
+}
+.product .text .title em{
+    color: #868689;
+    font-size: 12px;
+    padding: 14px 0;
+    display: block;
+}
+.product .title em span{
+    /*display: grid;*/
+    /*grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;*/
+    /*grid-gap: 10px;*/
+    padding:  0 10px;
+}
+.product .title h1 {
+    font-size: 32px;
+    color: #cccccd;;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+}
+.product h1 span{
+    font-size: 38px;
+    text-align: end;
+    color:#969699;
+}
+.product .info_product{
+    display: flex;
+    flex-direction: row;
+    color: #969699;
+    font-size: 12px;
+    margin-top: 10px;
+    border-bottom: 1px solid rgb(105, 105, 108);
+}
+.product .info_product li{
+    padding: 10px 20px;
+    border: 1px solid rgb(105, 105, 108);
+    font-weight: 700;
+}
+.product .info_product .active{
+    border: 1px solid #969699;
+    color: white;
+    border-bottom: 1px solid #ff8d02;
+    background: #303031;
+}
+.product .info_product li:hover{
+     background: #303031;
+    color: white;
+}
+.product .container{
+    display: flex;
+    flex-direction: row;
+}
+.product .img_product{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+.product .img_product .description{
+    font-size: 12px;
+    padding-top: 10px;
+    display: block;
+    color: #969699;
+    text-align: center;
+}
+.img_product .description em span{
+    padding: 0;
+}
+.product .img_product img{
+    border-radius: 6px;
+}
+.product .img_product .title{
+    margin-right: 8px;
+}
+.product .img ul{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.product .img_product .img img{
+    width: 50px;
+    height: 50px;
+    margin: 0 0 6px 6px;
+    border: 1px solid #4b4b4b ;
+}
+.product .price{
+    border: 1px solid #4b4b4b ;
+    margin: 16px 0 10px 5px;
+    padding: 20px;
+}
+.product .title_price h2{
+    color: rgb(255,141,2);
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+.product .title_price span{
+    font-size: 28px;
+}
+.product .others_price ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.product .others_price li{
+    padding: 2px 0 3px;
+    display: flex;
+    justify-content: space-between;
+    /*grid-template-columns: 1fr 1fr;*/
+}
+.product .others_price li a{
+    color:#cccccd;
+    font-size: 13px;
+    text-decoration:none;
+}
+.product .others_price li a:hover{
+    color: rgb(255,141,2);
+    text-decoration: underline rgb(255,141,2);
+}
+.product .others_price li i{
+    font-size: 10px;
+}
+.product .others_price li em{
+    color: rgb(255,141,2);
+    font-size: 14px;
+    padding: 2px 0 2px 8px;
+    margin-right: 15px;
+}
+.product .others_price li span{
+    font-size: 14px;
+}
+.product .like{
+    display: flex;
+    color: #969699;
+}
+.product .like .checkbox{
+    margin: auto 0;
+}
+.product .like .listen{
+    padding-right: 20px;
+}
+.product .like .listen span{
+    padding-right: 5px;
+    font-size: 20px;
+}
+.headphones{
+    width: 960px;
+    margin: 5px 0 20px;
+    color: #cccccd;
+    font-family: 'Roboto', sans-serif;
+}
+.headphones .list{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.headphones .list li{
+    font-size: 13px;
+    padding: 4px 12px 3px;
+}
+.headphones h3{
+    font-size: 21px;
+    margin: 15px 0 12px 3px;
+}
+.headphones .year{
+    border: 1px solid rgb(105, 105, 108);
+    font-size: 12px;
+    display: inline-block;
+    padding: 7px 13px 8px;
+    margin: 0 10px 11px 0;
+    border-radius: 5px;
+}
+/*.headphones .compound{*/
+/*    display: flex;*/
+/*}*/
+.headphones .color .text{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.headphones .column1{
+    padding-right: 25px;
+}
+.headphones h4{
+    color: #969699;
+    font-size: 21px;
+    padding: 4px 12px 3px;
+}
+.headphones .color img{
+    width: 22px;
+    height: 22px;
+    border-radius: 3px;
+    border: 1px solid rgb(105, 105, 108);
+}
+.headphones .hr{
+    background: #424242;
+    height: 1px;
+    width: 100%;
+    margin: 7px 0;
+}
+.headphones ul li{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.headphones ul li em{
+    width: 200px;
+}
+.headphones ul p span{
+    color: #878789;
+    margin: 5px;
+}
+.headphones .container{
+    margin-top: 20px;
+    padding-top: 5px;
+    border-top: 1px solid rgb(105, 105, 108);
+}
+.headphones .container em{
+    color: #fd7059;
+    font-size: 12px;
+}
+.headphones .container em span{
+    margin-right: 5px;
+}
+.headphones .container p{
+    margin: 2px 0 20px 0;
+    font-size: 11px;
+    color: #868689;
+}
+.headphones .container p span{
+    color: #cccccd;
+}
+.video{
+    color: #cccccd;
+    margin-top: 20px ;
+    font-family: 'Roboto', sans-serif;
+    border-bottom:1px solid rgb(105, 105, 108);
+    display: inline-block;
+}
+.video h2{
+    color: #cccccd;
+    font-size: 22px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+.video .title_video iframe{
+    width: 960px;
+    height: 540px;
+    border-radius: 10px;
+}
+.video .cardList{
+    display: flex;
+    justify-content: left;
+    padding: 25px 0;
+}
+.video .cardList img{
+    width: 180px;
+}
+.video .cardList .card{
+    margin-right: 15px;
+}
+.video .cardList .card .text{
+    width: 180px;
+}
+.video .cardList .card h4{
+    font-size: 15px;
+    margin-bottom: 12px;
+    font-weight: 500;
+}
+.video .cardList .card p{
+    font-size: 11px;
+    color: #969699;
+}
+.video .cardList .card p span{
+    font-size: 3px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    width: 1550px;
+    font-family: 'Roboto', sans-serif;
+}
+.parameters{
+    width: 552px;
+    height: 470px;
+    margin-left: 30px;
+    color: white;
+    padding-top: 27px;
+}
+.parameters .selection{
+    background: #303133;
+    padding: 10px 7px 15px 7px;
+    color:#969699;
+    margin-bottom: 15px;
+}
+.parameters .selection h2{
+    font-weight: 500;
+    font-size: 14px;
+    padding: 7px 5px 0 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.parameters .selection input{
+    margin: 15px 5px 0 10px;
+    background: #202124;
+    border: 1px solid #454649;
+    font-size: 13px;
+    padding: 4px 23px 4px 28px;
+    width: 70%;
+}
+.parameters .models{
+    background: #303133;
+    padding: 10px 7px 15px 7px;
+}
+.parameters .models h2{
+    font-weight: 500;
+    font-size: 14px;
+    padding: 7px 5px 0 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.parameters .models .text_model p{
+    margin: 8px 10px;
+}
+.parameters .models .text_model p span{
+    background: #202124;
+    font-size: 13px;
+    padding: 4px 10px;
+    display: inline-block;
+}
+.parameters .models .text_model .active{
+    color:white;
+    background: #59595f;
+    font-size: 14px;
+}
+.parameters .models h4{
+    margin: 11px 10px 3px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.parameters .models .brands p{
+    font-size: 14px;
+    margin: 8px 5px 0px 10px;
+}
+.parameters .brands p span{
+    margin: 0 9px 2px 0;
+    padding-bottom: 3px;
+    display: inline-block;
+}
+.parameters .brands p span:hover{
+    color: rgb(255,141,2);
+}
+.parameters .brands p .active{
+    color: rgb(255,141,2);
+}
+.parameters .brands .other{
+    color:#969699;
+    font-size: 14px;
+    margin: 8px 10px;
+}
+.parameters .brands .other span{
+    font-size: 10px;
+}
+.parameters .container h4{
+    font-size: 13px;
+    margin: 5px  0;
+    display: inline-block;
+}
+.parameters .container .h4{
+    font-weight: 700;
+}
+.parameters .container .i{
+    font-size: 14px;
+    color:#969699;
+}
+.parameters .container{
+    margin: 8px 10px;
+}
+.parameters .container .text{
+    margin-top: 7px;
+}
+.parameters .container .text em{
+    color:#969699;
+    font-size: 12px;
+    font-weight: 700;
+}
+.parameters .container .text .none{
+    font-weight: 400;
+}
+.parameters .container .text h4{
+    font-size: 14px;
+    margin: 3px 0;
+}
+.parameters .container .text p{
+    font-size: 14px;
+    color: rgb(255,141,2);
+    margin: 3px;
+}
+.parameters .question_headphones{
+    margin: 20px 30px 10px 0;
+    font-size: 12px;
+    color: #cccccd;
+}
+.parameters .question_headphones:hover{
+    color: rgb(255,141,2);
+}
+.other_headphones .card{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.other_headphones .card:hover{
+    background: #3c3c3e;
+}
+.other_headphones .active{
+    background: #303133;
+}
+.other_headphones h2{
+    color: #cccccd;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 15px 0 10px;
+}
+.other_headphones h2 em{
+    color: #868689;
+    padding: 2px 2px 9px 10px;
+    font-weight: 400;
+    font-size: 12px;
+}
+.other_headphones .img_product img{
+    width: 60px;
+    padding:0 7px ;
+}
+.other_headphones .text{
+    padding: 16px 0 16px 6px;
+    width: 492px;
+}
+.other_headphones .text h3{
+    color: #cccccd;
+    font-size: 15px;
+    font-weight: 700;
+}
+.other_headphones .text h3 span{
+    color:#969699;
+}
+.other_headphones .img_color img{
+    width: 14px;
+    border: 1px solid #69696c;
+    border-radius: 3px;
+    margin-right: 40px;
+}
+.other_headphones .text p {
+    color: #a6a6a9;
+    font-size: 13px;
+    margin-top: 5px;
+}
+.other_headphones .text em {
+    color: #959597;
+    font-size: 13px;
+    margin-top: 12px;
+}
+.other_headphones .text span{
+    color: #626263;
+    padding-right: 5px;
+    font-size: 12px;
+}
+.other_headphones .text span:hover{
+    color: rgb(255,141,2);
+}
+.other_headphones .price{
+    text-align: center;
+    color: rgb(255,141,2);
+    font-size: 28px;
+}
+.other_headphones .price p{
+    font-size: 11px;
+    border-radius: 3px;
+    border: 1px solid rgb(255,141,2);
+    padding: 5px 8px 6px ;
+    margin: 7px 0;
+}
+.other_headphones .logo_shop{
+    padding: 10px 0;
+    margin: auto;
+}
+.other_headphones .img_logo{
+    background: white;
+    padding: 5px;
+    border-radius: 3px;
+}
+.more{
+    margin: 20px 435px 20px 330px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.more p{
+    font-size: 16px;
+    padding: 14px 34px;
+    border: 1px solid rgb(93, 94, 96);
+    display: inline;
+    color: white;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+.more p:hover{
+    background: #3c3c3e;
+}
+.more em{
+    color: #868689;
+    font-size: 14px;
+}
+.question h2{
+    color: #cccccd;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 25px 0 20px;
+
+}
+/*.question h2 span{*/
+/*    font-size: 17px;*/
+/*    border: 1px solid rgb(93, 94, 96);*/
+/*    border-radius: 3px;*/
+/*    padding: 18px 40px;*/
+/*}*/
+.question h2 em{
+    color: #868689;
+    padding: 2px 2px 9px 10px;
+    font-weight: 400;
+    font-size: 12px;
+}
+.question h2 em:hover{
+    color: rgb(255,141,2);
+    text-decoration: underline  rgb(255,141,2);
+}
+.question img{
+    width: 32px;
+    border-radius: 50px;
+}
+.question .img{
+    padding-right: 10px;
+}
+.question .card{
+    display: flex;
+    justify-content: left;
+    color: #cccccd;
+    margin-bottom: 35px;
+}
+.question .card h3{
+    color: #868689;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+.question .card h3 span{
+    color: #69696c;
+}
+.question .card p{
+    color: #969699;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.question .card em{
+    font-size: 13px;
+    margin-top: 5px;
+    color: #868689;
+}
+.question .card em span{
+    margin-right: 8px;
+}
+.question .card em span:hover{
+    color: rgb(255,141,2);
+}
+.question .card .img i{
+    background: #1a202c;
+    color: #2d3748;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 20px;
+}
