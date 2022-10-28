@@ -1,4 +1,4 @@
-aww wow o<!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -167,105 +167,29 @@ aww wow o<!doctype html>
                 </div>
             </div>
         </div>
-        <div class="question">
-            <h2>Питання-відповідь по Hator Hypergang EVO <span>Поставити запитання</span></h2>
-            <div class="cardList">
-                <div class="card">
-                    <div class="img">
-                        <img src="https://lh3.googleusercontent.com/a-/AOh14Ghz4ecWgSziLe8u1sVDxRA5kZWxt92gipJa2wm8=s96-c?sz=50" alt="">
+
+
+
+
+        <div class="headphones">
+            <h3>Hator Hypergang EVO</h3>
+            <div class="list">
+                <div class="column1">
+                    <div class="color">
+                        <div class="text">
+                            <h4>Колір</h4>
+                        </div>
+                        <div class="img">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Black_colour.jpg/640px-Black_colour.jpg" alt="">
+                        </div>
+                        <div class="hr"></div>
                     </div>
-                    <div class="text">
-                        <h3>Danger F1opi <span>12 травня, 12:33</span></h3>
-                        <p>Подойдут ли єти наушники к икс бокс сериас с и будет ли работать там микрофон.</p>
-                        <em><span>- Відповіді 1</span> <spann>+ Відповісти</spann></em>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="img">
-                        <span><i class="fa-solid fa-user-large"></i></span>
-                    </div>
-                    <div class="text">
-                        <h3>Дима Щелкун <span>5 червня 2021, 21:14</span></h3>
-                        <p>можно ли подключать эти наушники к телефону для игр</p>
-                        <em><span>- Відповіді 1</span> <spann>+ Відповісти</spann></em>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="img">
-                        <span><img src="https://abrakadabra.fun/uploads/posts/2022-03/1647809364_1-abrakadabra-fun-p-milie-avatarki-na-vatsap-2.jpg" alt=""></span>
-                    </div>
-                    <div class="text">
-                        <h3>anonim<span>3 січня 2021, 11:44</span></h3>
-                        <p>Хватит ли встроеной Realtek ALC887, для раскрытия полного потенциала гарнитуры? Материнка Asus H81M-K</p>
-                        <em><span>- Відповіді 1</span> <spann>+ Відповісти</spann></em>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="img">
-                        <span><img src="https://www.youloveit.ru/uploads/posts/2020-04/1586360515_youloveit_ru_dipper_gravity_falls_na_avu02.jpg" alt=""></span>
-                    </div>
-                    <div class="text">
-                        <h3>anonim<span>26 грудня 2020, 09:34</span></h3>
-                        <p>Подходят ли они к PS4? #</p>
-                        <em><span>- Відповіді 1</span> <spann>+ Відповісти</spann></em>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="img">
-                        <span><i class="fa-solid fa-user-large"></i></span>
-                    </div>
-                    <div class="text">
-                        <h3>Артем Грицай<span>19 серпня 2020, 16:28</span></h3>
-                        <p>Здравствуйте, на этих наушниках есть регулятор громкости звука?! #</p>
-                        <em><span>- Відповіді 1</span> <spann>+ Відповісти</spann></em>
-                    </div>
-                </div>
-            </div>
-            <div class="more">
-                {{--                <em>Показано <span>3</span> із <span>5</span> запитань</em>--}}
-                {{--                <p>Ще <span>2</span> пропозицій</p>--}}
-            </div>
-        </div>
-    </div>
-    <div class="parameters">
-        <div class="selection">
-            <h2>ПІДБІР ЗА ПАРАМЕТРАМИ <span><i class="fa-solid fa-plus"></i></span></h2>
-            <input type="text" placeholder="Пошук параметрів">
-        </div>
-        <div class="models">
-            <div class="text_model">
-                <h2>МОДЕЛІ <span><i class="fa-solid fa-minus"></i></span></h2>
-                <p><span class="active">у продажі</span><span>всі</span></p>
-            </div>
-            <div class="brands">
-                <h4>Бренди</h4>
-                <p><span>A4Tech</span><span>Apple</span><span class="active">Hator</span><span>Huawei</span><span>HyperX</span><span>Jabra</span>
-                    <span>JBL</span><span>Koss</span><span>Logitech</span><span>Panasonic</span><span>Philips</span><span>Razer</span>
-                    <span>Samsung</span><span>Sennheiser</span><span>Sennheiser</span><span>Sony</span><span>Xiaomi</span></p>
-                <div class="other">
-                    <em>Усі бренди <span><i class="fa-solid fa-arrow-down-long"></i></span></em>
-                </div>
-            </div>
-            <div class="container">
-                <h4><span class="h4">Hator</span> (інтерфейс підключення) <span class="i"><i class="fa-solid fa-chevron-down"></i></span></h4>
-                <div class="text">
-                    <em>3.5 мм <span class="none">(mini-Jack)</span> <span><i class="fa-solid fa-chevron-up"></i></span></em>
-                    <h4>Hyperpunk Hellraizer</h4>
-                    <p>Hypergang HTA-810</p>
-                </div>
-                <div class="text">
-                    <em>два 3.5 мм (mini-Jack) <span><i class="fa-solid fa-chevron-up"></i></span></em>
-                    <h4>Hyperpunk Hellraizer</h4>
-                    <p>Hypergang HTA-810</p>
-                </div>
-                <div class="question_headphones">
-                    <p>Питання і побажання по підбору моделі <span><i class="fa-solid fa-arrow-right-long"></i></span></p>
+
                 </div>
             </div>
         </div>
-    </div>
-</div>
-</div>
+
+
 
 <div class="copy_info">
     <div class="img">

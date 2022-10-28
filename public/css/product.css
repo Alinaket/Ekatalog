@@ -160,6 +160,11 @@
     padding-right: 5px;
     font-size: 20px;
 }
+
+
+
+
+
 .headphones{
     width: 960px;
     margin: 5px 0 20px;
@@ -189,9 +194,13 @@
 /*.headphones .compound{*/
 /*    display: flex;*/
 /*}*/
-.headphones .color .text{
+.headphones .color{
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+.headphones .color .text{
+    /*display: grid;*/
+    /*grid-template-columns: 1fr 1fr;*/
 }
 .headphones .column1{
     padding-right: 25px;
