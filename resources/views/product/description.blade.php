@@ -167,10 +167,6 @@
                 </div>
             </div>
         </div>
-
-
-
-
         <div class="headphones">
             <h3>Hator Hypergang EVO</h3>
             <div class="list">
@@ -423,8 +419,139 @@
                 </div>
             </div>
         </div>
-
-
+        <div class="question">
+            <h2>Запитання</h2>
+            <div class="cardList">
+                <div class="card">
+                    <div class="img">
+                        <img src="https://lh3.googleusercontent.com/a-/AOh14Ghz4ecWgSziLe8u1sVDxRA5kZWxt92gipJa2wm8=s96-c?sz=50" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Danger F1opi <span>12 травня, 12:33</span></h3>
+                        <p>Подойдут ли єти наушники к икс бокс сериас с и будет ли работать там микрофон. #</p>
+                        <em><span> - Відповіді 1</span><span> +Відповіді </span></em>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="https://i.pinimg.com/474x/5f/03/10/5f0310152c8429dfbc441e99d5a8e33e.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Danger F1opi <span>12 травня, 12:33</span></h3>
+                        <p>можно ли подключать эти наушники к телефону для игр</p>
+                        <em><span> - Відповіді 1</span><span> +Відповіді </span></em>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="https://i.pinimg.com/736x/61/77/f7/6177f7a61cccf7a5fa5429af4fb1b2a0.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Danger F1opi <span>12 травня, 12:33</span></h3>
+                        <p>Хватит ли встроеной Realtek ALC887, для раскрытия полного потенциала гарнитуры? Материнка Asus H81M-K</p>
+                        <em><span> - Відповіді 1</span><span> +Відповіді </span></em>
+                    </div>
+                </div>
+                <div class="more">
+                    <em>Показано 3 із 5 запитань</em>
+                    <p>Ще 20 пропозицій</p>
+                </div>
+            </div>
+        </div>
+        <div class="video">
+            <h2>Відеоогляди</h2>
+            <div class="title_video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/J7UOmJCIZYg" title="YouTube video player"
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="cardList">
+                <div class="card">
+                    <div class="img">
+                        <img src="https://i.ytimg.com/vi/J7UOmJCIZYg/hqdefault.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h4>НЕДОРОГИЕ и НЕУБИВАЕМЫЕ</h4>
+                        <p><span>25 червня 2020</span> <span>116 267 переглядів</span> </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="https://i.ytimg.com/vi/EPa28Fcti1s/hqdefault.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h4>ЧТО НОВОГО в Hator Hypergang EVO ?</h4>
+                        <p><span>9 травня 2020</span> <span>131 262 перегляда</span> </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="https://i.ytimg.com/vi/r3e5zyPmPgA/hqdefault.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h4>Наушники HATOR Hypergang EVO</h4>
+                        <p><span>2 липня 2020</span> <span>28 002 перегляда</span> </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="https://i.ytimg.com/vi/atvT9krgEco/hqdefault.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h4>Мои наушники для Call of Duty Mobile | Игровая</h4>
+                        <p><span>22 березня 2020</span> <span> 617 переглядів</span> </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="https://i.ytimg.com/vi/m59RX4E4v4Q/hqdefault.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h4>Виграєш КОЖЕН клатч! Королі позиціонування -</h4>
+                        <p><span>17 серпня</span> <span>293 перегляда</span> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="parameters">
+        <div class="selection">
+            <h2>ПІДБІР ЗА ПАРАМЕТРАМИ <span><i class="fa-solid fa-plus"></i></span></h2>
+            <input type="text" placeholder="Пошук параметрів">
+        </div>
+        <div class="models">
+            <div class="text_model">
+                <h2>МОДЕЛІ <span><i class="fa-solid fa-minus"></i></span></h2>
+                <p><span class="active">у продажі</span><span>всі</span></p>
+            </div>
+            <div class="brands">
+                <h4>Бренди</h4>
+                <p><span>A4Tech</span><span>Apple</span><span class="active">Hator</span><span>Huawei</span><span>HyperX</span><span>Jabra</span>
+                    <span>JBL</span><span>Koss</span><span>Logitech</span><span>Panasonic</span><span>Philips</span><span>Razer</span>
+                    <span>Samsung</span><span>Sennheiser</span><span>Sennheiser</span><span>Sony</span><span>Xiaomi</span></p>
+                <div class="other">
+                    <em>Усі бренди <span><i class="fa-solid fa-arrow-down-long"></i></span></em>
+                </div>
+            </div>
+            <div class="container">
+                <h4><span class="h4">Hator</span> (інтерфейс підключення) <span class="i"><i class="fa-solid fa-chevron-down"></i></span></h4>
+                <div class="text">
+                    <em>3.5 мм <span class="none">(mini-Jack)</span> <span><i class="fa-solid fa-chevron-up"></i></span></em>
+                    <h4>Hyperpunk Hellraizer</h4>
+                    <p>Hypergang HTA-810</p>
+                </div>
+                <div class="text">
+                    <em>два 3.5 мм (mini-Jack) <span><i class="fa-solid fa-chevron-up"></i></span></em>
+                    <h4>Hyperpunk Hellraizer</h4>
+                    <p>Hypergang HTA-810</p>
+                </div>
+                <div class="question_headphones">
+                    <p>Питання і побажання по підбору моделі <span><i class="fa-solid fa-arrow-right-long"></i></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
 <div class="copy_info">
     <div class="img">
         {{--        <span><i class="fa-solid fa-basket-shopping"></i></span>--}}
