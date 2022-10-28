@@ -184,12 +184,117 @@
                         </div>
                         <div class="hr"></div>
                     </div>
-
+                    <div class="construction">
+                        <h4>Підключення та конструкція</h4>
+                        <ul>
+                            <li>
+                                <p>Призначення<span><i class="fa-regular fa-circle-question"></i></span></p> <em>ігрові</em>
+                            </li>
+                            <li>
+                                <p>Конструкція<span><i class="fa-regular fa-circle-question"></i></span></p> <em>накладні, закриті повнорозмірні Over-Ear</em>
+                            </li>
+                            <li>
+                                <p>Мікрофон<span><i class="fa-regular fa-circle-question"></i></span></p> <em>знімний на дужці</em>
+                            </li>
+                            <li>
+                                <p>Мікрофон<span><i class="fa-regular fa-circle-question"></i></span></p> <em>знімний на дужці</em>
+                            </li>
+                            <li>
+                                <p>Тип підключення<span><i class="fa-regular fa-circle-question"></i></span></p> <em>дротові</em>
+                            </li>
+                            <li>
+                                <p>Підключення<span><i class="fa-regular fa-circle-question"></i></span></p> <em>mini-Jack (3.5 мм) mini-Jack (2 x 3.5 мм)</em>
+                            </li>
+                            <li>
+                                <p>Штекер<span><i class="fa-regular fa-circle-question"></i></span></p> <em>прямий</em>
+                            </li>
+                            <li>
+                                <p>Підведення кабелю<span><i class="fa-regular fa-circle-question"></i></span></p> <em>односторонній</em>
+                            </li>
+                            <li>
+                                <p>Довжина кабелю<span><i class="fa-regular fa-circle-question"></i></span></p> <em>1 м</em>
+                            </li>
+                            <li>
+                                <p>Тип кабелю<span><i class="fa-regular fa-circle-question"></i></span></p> <em>круглий, в обплетенні</em>
+                            </li>
+                        </ul>
+                        <div class="hr"></div>
+                    </div>
+                    <div class="characteristics">
+                        <h4>Характеристики</h4>
+                        <ul>
+                            <li>
+                                <p>Звук<span><i class="fa-regular fa-circle-question"></i></span></p> <em>стерео</em>
+                            </li>
+                            <li>
+                                <p>Імпеданс<span><i class="fa-regular fa-circle-question"></i></span></p> <em>64 Ом</em>
+                            </li>
+                            <li>
+                                <p>Частотний діапазон<span><i class="fa-regular fa-circle-question"></i></span></p> <em>20 – 20000 Гц</em>
+                            </li>
+                            <li>
+                                <p>Чутливість<span><i class="fa-regular fa-circle-question"></i></span></p> <em>110 дБ</em>
+                            </li>
+                            <li>
+                                <p>Діаметр динаміка<span><i class="fa-regular fa-circle-question"></i></span></p> <em>m53 мм</em>
+                            </li>
+                            <li>
+                                <p>Тип випромінювачів<span><i class="fa-regular fa-circle-question"></i></span></p> <em>динамічні</em>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="column2">
+                    <div class="microphone">
+                        <h4>Характеристики мікрофона</h4>
+                        <ul>
+                            <li>
+                                <p>Частотний діапазон<span><i class="fa-regular fa-circle-question"></i></span></p> <em>20 – 10000 Гць</em>
+                            </li>
+                            <li>
+                                <p>Чутливість<span><i class="fa-regular fa-circle-question"></i></span></p> <em>-42 дБ</em>
+                            </li>
+                            <li>
+                                <p>Гнучка конструкція<span><i class="fa-regular fa-circle-question"></i></span></p> <em><span><i class="fa-solid fa-check"></i></span></em>
+                            </li>
+                        </ul>
+                        <div class="hr"></div>
+                    </div>
+                    <div class="functions">
+                        <h4>Функції та можливості</h4>
+                        <ul>
+                            <li>
+                                <p>Регулювання гучності<span><i class="fa-regular fa-circle-question"></i></span></p> <em><span><i class="fa-solid fa-check"></i></span></em>
+                            </li>
+                        </ul>
+                        <div class="hr"></div>
+                    </div>
+                    <div class="other">
+                        <h4>Інше</h4>
+                        <ul>
+                            <li>
+                                <p>Вага<span><i class="fa-regular fa-circle-question"></i></span></p> <em>265 г</em>
+                            </li>
+                            <li>
+                                <p>Комплектаціяа<span><i class="fa-regular fa-circle-question"></i></span></p> <em>додатковий кабель</em>
+                            </li>
+                            <li>
+                                <p>Офіційний сайт<span></span></p> <em><a href="https://hator.gg/audio/hypergang-evo/"></a></em>
+                            </li>
+                            <li>
+                                <p>Дата додавання на E-Katalog<span></span></p> <em>серпень 2020</em>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
+            <div class="container">
+                <em><span><i class="fa-solid fa-plus"></i></span>Повідомити про помилку в описі</em>
+                <p>Iнформація в описі моделі носить довідковий характер.
+                    <br> Завжди перед покупкою уточнюйте у менеджера інтернет-магазину характеристики і комплектацію товару
+                    <br> <span>Каталог Hator 2022</span> - новинки, хіти продажів і найактуальніші моделі Hator.</p>
+            </div>
         </div>
-
-
 
 <div class="copy_info">
     <div class="img">

@@ -233,6 +233,10 @@
     color: #878789;
     margin: 5px;
 }
+.headphones li a {
+    color: #cccccd;
+    text-decoration: 1px ;
+}
 .headphones .container{
     margin-top: 20px;
     padding-top: 5px;
@@ -241,6 +245,9 @@
 .headphones .container em{
     color: #fd7059;
     font-size: 12px;
+}
+.headphones li em span{
+    color: rgb(0, 155, 22);
 }
 .headphones .container em span{
     margin-right: 5px;
