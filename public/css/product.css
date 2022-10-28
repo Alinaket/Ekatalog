@@ -461,6 +461,11 @@
     width: 60px;
     padding:0 7px ;
 }
+.other_headphones .img_product span{
+    color: black;
+    font-size: 23px;
+    padding: 0 25px;
+}
 .other_headphones .text{
     padding: 16px 0 16px 6px;
     width: 492px;
@@ -475,6 +480,7 @@
 }
 .other_headphones .img_color img{
     width: 14px;
+    height: 14px;
     border: 1px solid #69696c;
     border-radius: 3px;
     margin-right: 40px;
@@ -518,6 +524,7 @@
     padding: 5px;
     border-radius: 3px;
 }
+
 .more{
     margin: 20px 435px 20px 330px;
     display: flex;
