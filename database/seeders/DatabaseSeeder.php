@@ -17,6 +17,7 @@ class DatabaseSeeder extends Seeder
             NewsSeeders::class,
             CategoriesSeeder::class,
             ProductSeeders::class,
+            ImgSeeder::class
         ]);
 
     }

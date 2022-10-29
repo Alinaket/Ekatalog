@@ -82,18 +82,22 @@
                     </div>
                     <div class="img">
                         <ul>
-                            <li><img src="https://mzimg.com/120/31/gho6sbucw31.jpg" alt=""></li>
-                            <li><img src="https://mzimg.com/120/s1/gho6shmbvs1.jpg" alt=""></li>
-                            <li><img src="https://mzimg.com/120/c1/gho6shz1bc1.jpg" alt=""></li>
-                            <li><img src="https://mzimg.com/120/i1/gho6sie80i1.jpg" alt=""></li>
-                            <li><img src="https://mzimg.com/120/s1/gho6siz1bs1.jpg" alt=""></li>
-                            <li><img src="https://mzimg.com/120/v1/gho6saisdv1.jpg" alt=""></li>
-                            <li><img src="https://mzimg.com/120/n1/gho6sk4jpn1.jpg" alt=""></li>
-                            <li><img src="https://mzimg.com/120/d1/gho6skfled1.jpg" alt=""></li>
-                            <li></li>
-                            <li><img src="https://mzimg.com/120/j1/gho6sl42mj1.jpg" alt=""></li>
-                            <li><img src="https://mzimg.com/120/71/gho6sj4wt71.jpg" alt=""></li>
-                            <li><img src="https://mzimg.com/120/d1/gho6sjq75d1.jpg" alt=""></li>
+                            @foreach($imgs as $item)
+                                <li><img src="{{$item->url}}" alt=""></li>
+                            @endforeach
+
+{{--                            <li><img src="https://mzimg.com/120/31/gho6sbucw31.jpg" alt=""></li>--}}
+{{--                            <li><img src="https://mzimg.com/120/s1/gho6shmbvs1.jpg" alt=""></li>--}}
+{{--                            <li><img src="https://mzimg.com/120/c1/gho6shz1bc1.jpg" alt=""></li>--}}
+{{--                            <li><img src="https://mzimg.com/120/i1/gho6sie80i1.jpg" alt=""></li>--}}
+{{--                            <li><img src="https://mzimg.com/120/s1/gho6siz1bs1.jpg" alt=""></li>--}}
+{{--                            <li><img src="https://mzimg.com/120/v1/gho6saisdv1.jpg" alt=""></li>--}}
+{{--                            <li><img src="https://mzimg.com/120/n1/gho6sk4jpn1.jpg" alt=""></li>--}}
+{{--                            <li><img src="https://mzimg.com/120/d1/gho6skfled1.jpg" alt=""></li>--}}
+{{--                            <li></li>--}}
+{{--                            <li><img src="https://mzimg.com/120/j1/gho6sl42mj1.jpg" alt=""></li>--}}
+{{--                            <li><img src="https://mzimg.com/120/71/gho6sj4wt71.jpg" alt=""></li>--}}
+{{--                            <li><img src="https://mzimg.com/120/d1/gho6sjq75d1.jpg" alt=""></li>--}}
                         </ul>
                     </div>
                 </div>
