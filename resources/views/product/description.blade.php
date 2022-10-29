@@ -66,9 +66,9 @@
             <div class="info">
                 <ul class="info_product">
                     <li>ДЕ КУПИТИ <span>32</span></li>
-                    <li>ОПИС <span></span></li>
+                    <li class="active">ОПИС <span></span></li>
                     <li>ВІДГУКИ <span>16</span></li>
-                    <li class="active">ОБГОВОРЕННЯ <span>5</span></li>
+                    <li>ОБГОВОРЕННЯ <span>5</span></li>
                     <li>КОРИСНЕ <span>1</span></li>
                 </ul>
             </div>
