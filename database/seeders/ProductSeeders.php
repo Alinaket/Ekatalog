@@ -30,7 +30,7 @@ class ProductSeeders extends Seeder
             [ 'name'=>"Esperanza EKH005", 'price'=>1150, 'category'=>12, 'img'=>"https://s.ek.ua/jpg/1076608.jpg", 'description'=>""],
             [ 'name'=>"Xiaomi Mi TV P1 43", 'price'=>13899, 'category'=>13, 'img'=>"https://s.ek.ua/jpg/2077517.jpg", 'description'=>""],
             [ 'name'=>"Xiaomi Mi Robot Vacuum-Mop 2 Pro", 'price'=>12999, 'category'=>14, 'img'=>"https://s.ek.ua/jpg/1677862.jpg", 'description'=>""],
-            [ 'name'=>"Roborock S7", 'price'=>18700, 'category'=>15, 'img'=>"https://s.ek.ua/jpg/1833685.jpg", 'description'=>""],
+            [ 'name'=>"Roborock S7", 'price'=>1870, 'category'=>15, 'img'=>"https://s.ek.ua/jpg/1833685.jpg", 'description'=>""],
             ]);
     }
 }

@@ -17,3 +17,4 @@ Route::get('/', [ProductController::class, "home"])->name("home");
 Route::get('/product',[ProductController::class, "product"] )->name("product");
 Route::get('/test',[ProductController::class, "test"] )->name("test");
 Route::get('/description',[ProductController::class, "description"] )->name("description");
+Route::get('/buy',[ProductController::class, "buy"] )->name("buy");
