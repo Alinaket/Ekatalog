@@ -261,7 +261,7 @@
         </div>
         <div class="card">
             <div class="icon">
-                <span><i class="fa-solid fa-stapler"></i></i></span>
+                <span><i class="fa-solid fa-stapler"></i></span>
             </div>
             <div class="text">
                 <h3>Офіс і канцелярія</h3>
