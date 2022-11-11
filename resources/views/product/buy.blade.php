@@ -174,12 +174,55 @@
                 </div>
             </div>
             <div class="emoji">
-                <img src="https://ek.ua/img/svg/review-smile-dark-1.svg" alt="утікла в хащу, лиш пятки засверкали :)">
-                <img src="https://ek.ua/img/svg/review-smile-dark-2.svg" alt="утікла в хащу, лиш пятки засверкали :)">
-                <img src="https://ek.ua/img/svg/review-smile-dark-3.svg" alt="утікла в хащу, лиш пятки засверкали :)">
-                <img src="https://ek.ua/img/svg/review-smile-dark-4.svg" alt="утікла в хащу, лиш пятки засверкали :)">
+                <div class="img">
+                    <img src="https://ek.ua/img/svg/review-smile-dark-1.svg" alt="утікла в хащу, лиш пятки засверкали :)">
+                    <em>2</em>
+                </div>
+                <div class="img">
+                    <img src="https://ek.ua/img/svg/review-smile-dark-2.svg" alt="утікла в хащу, лиш пятки засверкали :)">
+                    <em>4</em>
+                </div>
+                <div class="img">
+                    <img src="https://ek.ua/img/svg/review-smile-dark-3.svg" alt="утікла в хащу, лиш пятки засверкали :)">
+                    <em>4</em>
+                </div>
+                <div class="img">
+                    <img src="https://ek.ua/img/svg/review-smile-dark-4.svg" alt="утікла в хащу, лиш пятки засверкали :)">
+                    <em>7</em>
+                </div>
             </div>
         </div>
+        <div class="cardList">
+            <div class="card">
+                <div class="useful">
+                    <div class="question">
+                        <p>Відгук корисний?</p>
+                    </div>
+                    <div class="br">
+
+                    </div>
+                    <div class="or">
+                        <em>Так</em>
+                        <em>Ні</em>
+                    </div>
+                </div>
+                <div class="text">
+                    <div class="container">
+                        <h3>обычная модель, ничего особенного <span><img src="https://ek.ua/img/svg/review-smile-dark-3.svg"
+                            alt="утікла в хащу, лиш пятки засверкали :)"></span></h3>
+                        <p class="coment"></p>
+                        <p class="plus"> <span><i class="fa-solid fa-plus"></i></span>Хороший звук, хорошее качество звука, низкая цена.</p>
+                        <p class="minus"> <span><i class="fa-solid fa-minus"></i></span>У меня брак - не работает микрофон</p>
+                        <em>Danilo: <span>користуюся Hator Hypergang EVO кілька місяців</span> </em>
+                        <em class="discuss"> + Обговорити</em>
+                    </div>
+                   <div class="date">
+                       <span> 18 жовтня 2020 #</span>
+                   </div>
+                </div>
+            </div>
+        </div>
+
     </div>
     <div class="parameters">
         <div class="selection">
