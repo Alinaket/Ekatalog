@@ -199,6 +199,7 @@ body{
     position: relative;
     right: 33px;
     transition-duration: 0.4s;
+    position: relative;
 }
 .popular .cardList .card{
     width: 200px;
@@ -240,7 +241,7 @@ body{
      transform: translate(0, -50%);
 }
  .popular .content{
-     position: relative;
+
  }
 .recom{
     padding: 0 20px;
