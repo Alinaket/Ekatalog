@@ -96,4 +96,71 @@
      position: relative;
      padding-right: 10px;
 }
-
+.cardList .card .container{
+    display: flex;
+    justify-content: space-between;
+    color: #cccccd;
+}
+.cardList .card .container h3{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 40px 9px 0;
+    /*align-items: center;*/
+    /*margin: auto;*/
+    text-align: center;
+}
+.cardList .card .container h3 img{
+    width:23px;
+    padding-left: 7px;
+}
+.cardList .card .container .date{
+    color: #868689;
+    font-size: 13px;
+    padding: 7px 0 1px ;
+}
+.cardList .card .text{
+    color: #cccccd;
+    font-size: 14px;
+    line-height: 17px;
+}
+.cardList .card .text .plus, .minus{
+    padding: 1px 0 10px ;
+}
+.cardList .card .text .plus span{
+    color: rgb(255,141,2);
+    padding-right: 6px;
+    font-size: 17px;
+}
+.cardList .card .text .minus span{
+    color: rgb(147, 147, 147);
+    padding-right: 6px;
+    font-size: 17px;
+}
+.cardList .card .text em{
+    padding-bottom: 10px;
+}
+.cardList .card .text em span{
+    color: #868689
+}
+.cardList .card .text em span:hover{
+    color: rgb(255,141,2);
+}
+.cardList .card .text .discuss{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    color: #868689;
+    padding-bottom: 10px;
+}
+.cardList .card .text .discuss:hover{
+    color: rgb(255,141,2);
+}
+.more_buy{
+    font-size: 24px;
+    color: rgb(255,141,2);
+    border: 1px solid rgb(255,141,2);
+    border-radius: 5px;
+    display: inline-block;
+    padding: 14px 44px;
+    margin: 20px 360px;
+}
