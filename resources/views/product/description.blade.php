@@ -1,59 +1,5 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="{{asset("css/product.css")}}">
-    <link rel="stylesheet" href="{{asset("css/home.css")}}">
-    <link rel="stylesheet" href="{{asset("css/recet.css")}}">
-    <link rel="stylesheet" href="{{asset("css/coment.css")}}">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-    <title>Document</title>
-</head>
-<body>
-<div class="dark_side">
-    <span>Темна версія</span>
-    <label class="switch">
-        <input type="checkbox">
-        <span class="slider round"></span>
-    </label>
-</div>
-<div class="top_nav">
-    <ul class="search">
-        <li class="img">
-            <a href="{{route("home")}}"><img src="https://ek.ua/img/svg/logo.svg" alt=""></a>
-        </li>
-        <li class="input"><input type="text" placeholder="Пошук товарів"> </li>
-        <li class="button"><button>Знайти</button></li>
-    </ul>
-    <ul class="info">
-        <li class="language"><span>укр</span> | <span>eng</span></li>
-        <li class="icon"><span><i class="fa-solid fa-location-dot"></i></span>Хуст</li>
-        <li class="icon"><span><i class="fa-solid fa-user"></i></span>Увійти</li>
-    </ul>
-</div>
-<div class="menu">
-    <ul>
-        <li>Гаджети</li>
-        <li>Комп'ютери</li>
-        <li>Фото</li>
-        <li>TV</li>
-        <li>Аудіо</li>
-        <li>Побутова техніка</li>
-        <li>Клімат</li>
-        <li>Будинок</li>
-        <li>Дитячі товари</li>
-        <li>Авто</li>
-        <li>Інструментти</li>
-        <li>Туризм</li>
-        <li>Спорт</li>
-        <li>Ще+</li>
-    </ul>
-</div>
+@extends("layout.app_main")
+@section("content")
 <div class="content">
     <div class="content_product">
         <div class="product">
@@ -66,9 +12,9 @@
             <div class="info">
                 <ul class="info_product">
                     <li>ДЕ КУПИТИ <span>32</span></li>
-                    <li class="active">ОПИС <span></span></li>
-                    <li>ВІДГУКИ <span>16</span></li>
-                    <li>ОБГОВОРЕННЯ <span>5</span></li>
+                    <li>ОПИС <span></span></li>
+                    <li class="active" >ВІДГУКИ <span>16</span></li>
+                    <li >ОБГОВОРЕННЯ <span>5</span></li>
                     <li>КОРИСНЕ <span>1</span></li>
                 </ul>
             </div>
@@ -82,22 +28,18 @@
                     </div>
                     <div class="img">
                         <ul>
-                            @foreach($imgs as $item)
-                                <li><img src="{{$item->url}}" alt=""></li>
-                            @endforeach
-
-{{--                            <li><img src="https://mzimg.com/120/31/gho6sbucw31.jpg" alt=""></li>--}}
-{{--                            <li><img src="https://mzimg.com/120/s1/gho6shmbvs1.jpg" alt=""></li>--}}
-{{--                            <li><img src="https://mzimg.com/120/c1/gho6shz1bc1.jpg" alt=""></li>--}}
-{{--                            <li><img src="https://mzimg.com/120/i1/gho6sie80i1.jpg" alt=""></li>--}}
-{{--                            <li><img src="https://mzimg.com/120/s1/gho6siz1bs1.jpg" alt=""></li>--}}
-{{--                            <li><img src="https://mzimg.com/120/v1/gho6saisdv1.jpg" alt=""></li>--}}
-{{--                            <li><img src="https://mzimg.com/120/n1/gho6sk4jpn1.jpg" alt=""></li>--}}
-{{--                            <li><img src="https://mzimg.com/120/d1/gho6skfled1.jpg" alt=""></li>--}}
-{{--                            <li></li>--}}
-{{--                            <li><img src="https://mzimg.com/120/j1/gho6sl42mj1.jpg" alt=""></li>--}}
-{{--                            <li><img src="https://mzimg.com/120/71/gho6sj4wt71.jpg" alt=""></li>--}}
-{{--                            <li><img src="https://mzimg.com/120/d1/gho6sjq75d1.jpg" alt=""></li>--}}
+                            <li><img src="https://mzimg.com/120/31/gho6sbucw31.jpg" alt=""></li>
+                            <li><img src="https://mzimg.com/120/s1/gho6shmbvs1.jpg" alt=""></li>
+                            <li><img src="https://mzimg.com/120/c1/gho6shz1bc1.jpg" alt=""></li>
+                            <li><img src="https://mzimg.com/120/i1/gho6sie80i1.jpg" alt=""></li>
+                            <li><img src="https://mzimg.com/120/s1/gho6siz1bs1.jpg" alt=""></li>
+                            <li><img src="https://mzimg.com/120/v1/gho6saisdv1.jpg" alt=""></li>
+                            <li><img src="https://mzimg.com/120/n1/gho6sk4jpn1.jpg" alt=""></li>
+                            <li><img src="https://mzimg.com/120/d1/gho6skfled1.jpg" alt=""></li>
+                            <li></li>
+                            <li><img src="https://mzimg.com/120/j1/gho6sl42mj1.jpg" alt=""></li>
+                            <li><img src="https://mzimg.com/120/71/gho6sj4wt71.jpg" alt=""></li>
+                            <li><img src="https://mzimg.com/120/d1/gho6sjq75d1.jpg" alt=""></li>
                         </ul>
                     </div>
                 </div>
@@ -180,7 +122,9 @@
                             <h4>Колір</h4>
                         </div>
                         <div class="img">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Black_colour.jpg/640px-Black_colour.jpg" alt="">
+                            <img
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Black_colour.jpg/640px-Black_colour.jpg"
+                                alt="">
                         </div>
                         <div class="hr"></div>
                     </div>
@@ -191,19 +135,24 @@
                                 <p>Призначення<span><i class="fa-regular fa-circle-question"></i></span></p> <em>ігрові</em>
                             </li>
                             <li>
-                                <p>Конструкція<span><i class="fa-regular fa-circle-question"></i></span></p> <em>накладні, закриті повнорозмірні Over-Ear</em>
+                                <p>Конструкція<span><i class="fa-regular fa-circle-question"></i></span></p> <em>накладні,
+                                    закриті повнорозмірні Over-Ear</em>
                             </li>
                             <li>
-                                <p>Мікрофон<span><i class="fa-regular fa-circle-question"></i></span></p> <em>знімний на дужці</em>
+                                <p>Мікрофон<span><i class="fa-regular fa-circle-question"></i></span></p> <em>знімний на
+                                    дужці</em>
                             </li>
                             <li>
-                                <p>Мікрофон<span><i class="fa-regular fa-circle-question"></i></span></p> <em>знімний на дужці</em>
+                                <p>Мікрофон<span><i class="fa-regular fa-circle-question"></i></span></p> <em>знімний на
+                                    дужці</em>
                             </li>
                             <li>
-                                <p>Тип підключення<span><i class="fa-regular fa-circle-question"></i></span></p> <em>дротові</em>
+                                <p>Тип підключення<span><i class="fa-regular fa-circle-question"></i></span></p>
+                                <em>дротові</em>
                             </li>
                             <li>
-                                <p>Підключення<span><i class="fa-regular fa-circle-question"></i></span></p> <em>mini-Jack (3.5 мм) mini-Jack (2 x 3.5 мм)</em>
+                                <p>Підключення<span><i class="fa-regular fa-circle-question"></i></span></p> <em>mini-Jack (3.5
+                                    мм) mini-Jack (2 x 3.5 мм)</em>
                             </li>
                             <li>
                                 <p>Штекер<span><i class="fa-regular fa-circle-question"></i></span></p> <em>прямий</em>
@@ -215,7 +164,8 @@
                                 <p>Довжина кабелю<span><i class="fa-regular fa-circle-question"></i></span></p> <em>1 м</em>
                             </li>
                             <li>
-                                <p>Тип кабелю<span><i class="fa-regular fa-circle-question"></i></span></p> <em>круглий, в обплетенні</em>
+                                <p>Тип кабелю<span><i class="fa-regular fa-circle-question"></i></span></p> <em>круглий, в
+                                    обплетенні</em>
                             </li>
                         </ul>
                         <div class="hr"></div>
@@ -230,13 +180,15 @@
                                 <p>Імпеданс<span><i class="fa-regular fa-circle-question"></i></span></p> <em>64 Ом</em>
                             </li>
                             <li>
-                                <p>Частотний діапазон<span><i class="fa-regular fa-circle-question"></i></span></p> <em>20 – 20000 Гц</em>
+                                <p>Частотний діапазон<span><i class="fa-regular fa-circle-question"></i></span></p> <em>20 –
+                                    20000 Гц</em>
                             </li>
                             <li>
                                 <p>Чутливість<span><i class="fa-regular fa-circle-question"></i></span></p> <em>110 дБ</em>
                             </li>
                             <li>
-                                <p>Діаметр динаміка<span><i class="fa-regular fa-circle-question"></i></span></p> <em>m53 мм</em>
+                                <p>Діаметр динаміка<span><i class="fa-regular fa-circle-question"></i></span></p> <em>m53
+                                    мм</em>
                             </li>
                             <li>
                                 <p>Тип випромінювачів<span><i class="fa-regular fa-circle-question"></i></span></p> <em>динамічні</em>
@@ -249,13 +201,15 @@
                         <h4>Характеристики мікрофона</h4>
                         <ul>
                             <li>
-                                <p>Частотний діапазон<span><i class="fa-regular fa-circle-question"></i></span></p> <em>20 – 10000 Гць</em>
+                                <p>Частотний діапазон<span><i class="fa-regular fa-circle-question"></i></span></p> <em>20 –
+                                    10000 Гць</em>
                             </li>
                             <li>
                                 <p>Чутливість<span><i class="fa-regular fa-circle-question"></i></span></p> <em>-42 дБ</em>
                             </li>
                             <li>
-                                <p>Гнучка конструкція<span><i class="fa-regular fa-circle-question"></i></span></p> <em><span><i class="fa-solid fa-check"></i></span></em>
+                                <p>Гнучка конструкція<span><i class="fa-regular fa-circle-question"></i></span></p> <em><span><i
+                                            class="fa-solid fa-check"></i></span></em>
                             </li>
                         </ul>
                         <div class="hr"></div>
@@ -264,7 +218,8 @@
                         <h4>Функції та можливості</h4>
                         <ul>
                             <li>
-                                <p>Регулювання гучності<span><i class="fa-regular fa-circle-question"></i></span></p> <em><span><i class="fa-solid fa-check"></i></span></em>
+                                <p>Регулювання гучності<span><i class="fa-regular fa-circle-question"></i></span></p> <em><span><i
+                                            class="fa-solid fa-check"></i></span></em>
                             </li>
                         </ul>
                         <div class="hr"></div>
@@ -276,7 +231,8 @@
                                 <p>Вага<span><i class="fa-regular fa-circle-question"></i></span></p> <em>265 г</em>
                             </li>
                             <li>
-                                <p>Комплектаціяа<span><i class="fa-regular fa-circle-question"></i></span></p> <em>додатковий кабель</em>
+                                <p>Комплектаціяа<span><i class="fa-regular fa-circle-question"></i></span></p> <em>додатковий
+                                    кабель</em>
                             </li>
                             <li>
                                 <p>Офіційний сайт<span></span></p> <em><a href="https://hator.gg/audio/hypergang-evo/"></a></em>
@@ -305,12 +261,15 @@
                     </div>
                     <div class="text">
                         <h3>Hator Hypergang EVO <span>(HTA-810)</span></h3>
-                        <p>тип пристрою - гарнітура, Тип - геймерські (ігрові), підключення - дротове, конструкція - повнорозмірні, тип кріплення - дуга...
+                        <p>тип пристрою - гарнітура, Тип - геймерські (ігрові), підключення - дротове, конструкція -
+                            повнорозмірні, тип кріплення - дуга...
                             щеKvshop.com.uaМенше рокуДоставка: по ХустуГарантія: від виробникаПоскаржитись</p>
                     </div>
                     <div class="color">
                         <div class="img_color">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Black_colour.jpg/640px-Black_colour.jpg" alt="">
+                            <img
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Black_colour.jpg/640px-Black_colour.jpg"
+                                alt="">
                         </div>
                     </div>
                     <div class="price">
@@ -333,7 +292,9 @@
                     </div>
                     <div class="color">
                         <div class="img_color">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Black_colour.jpg/640px-Black_colour.jpg" alt="">
+                            <img
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Black_colour.jpg/640px-Black_colour.jpg"
+                                alt="">
                         </div>
                     </div>
                     <div class="price">
@@ -356,7 +317,9 @@
                     </div>
                     <div class="color">
                         <div class="img_color">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Black_colour.jpg/640px-Black_colour.jpg" alt="">
+                            <img
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Black_colour.jpg/640px-Black_colour.jpg"
+                                alt="">
                         </div>
                     </div>
                     <div class="price">
@@ -371,16 +334,21 @@
                 </div>
                 <div class="card">
                     <div class="img_product">
-                        <img src="https://flick.zone/wp-content/uploads/2021/05/u0438122-hator-hypergang-evo-hta-810-flick.zone_15399_nobg.png" alt="">
+                        <img
+                            src="https://flick.zone/wp-content/uploads/2021/05/u0438122-hator-hypergang-evo-hta-810-flick.zone_15399_nobg.png"
+                            alt="">
                     </div>
                     <div class="text">
                         <h3>Hator Hypergang EVO HTA-810<span></span></h3>
                         <p>гарнітура, дротове, штекер 3.5 мм, 64 Ом, 110 дБ, Активне шумозаглушення - немає
-                            Flick І Все для геймерівМенше рокуДоставка: у Хуст з КиєваГарантія: 24 міс. від виробника Поскаржитись</p>
+                            Flick І Все для геймерівМенше рокуДоставка: у Хуст з КиєваГарантія: 24 міс. від виробника
+                            Поскаржитись</p>
                     </div>
                     <div class="color">
                         <div class="img_color">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Black_colour.jpg/640px-Black_colour.jpg" alt="">
+                            <img
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Black_colour.jpg/640px-Black_colour.jpg"
+                                alt="">
                         </div>
                     </div>
                     <div class="price">
@@ -399,12 +367,15 @@
                     </div>
                     <div class="text">
                         <h3>Hator Hypergang EVO <span>(HTA-810)</span></h3>
-                        <p>тип пристрою - гарнітура, Тип - геймерські (ігрові), підключення - дротове, конструкція - повнорозмірні, тип кріплення - дуга...
+                        <p>тип пристрою - гарнітура, Тип - геймерські (ігрові), підключення - дротове, конструкція -
+                            повнорозмірні, тип кріплення - дуга...
                             щеKvshop.com.uaМенше рокуДоставка: по ХустуГарантія: від виробникаПоскаржитись</p>
                     </div>
                     <div class="color">
                         <div class="img_color">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Black_colour.jpg/640px-Black_colour.jpg" alt="">
+                            <img
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Black_colour.jpg/640px-Black_colour.jpg"
+                                alt="">
                         </div>
                     </div>
                     <div class="price">
@@ -428,7 +399,8 @@
             <div class="cardList">
                 <div class="card">
                     <div class="img">
-                        <img src="https://lh3.googleusercontent.com/a-/AOh14Ghz4ecWgSziLe8u1sVDxRA5kZWxt92gipJa2wm8=s96-c?sz=50" alt="">
+                        <img src="https://lh3.googleusercontent.com/a-/AOh14Ghz4ecWgSziLe8u1sVDxRA5kZWxt92gipJa2wm8=s96-c?sz=50"
+                             alt="">
                     </div>
                     <div class="text">
                         <h3>Danger F1opi <span>12 травня, 12:33</span></h3>
@@ -452,7 +424,8 @@
                     </div>
                     <div class="text">
                         <h3>Danger F1opi <span>12 травня, 12:33</span></h3>
-                        <p>Хватит ли встроеной Realtek ALC887, для раскрытия полного потенциала гарнитуры? Материнка Asus H81M-K</p>
+                        <p>Хватит ли встроеной Realtek ALC887, для раскрытия полного потенциала гарнитуры? Материнка Asus
+                            H81M-K</p>
                         <em><span> - Відповіді 1</span><span> +Відповіді </span></em>
                     </div>
                 </div>
@@ -466,7 +439,9 @@
             <h2>Відеоогляди</h2>
             <div class="title_video">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/J7UOmJCIZYg" title="YouTube video player"
-                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
             </div>
             <div class="cardList">
                 <div class="card">
@@ -475,7 +450,7 @@
                     </div>
                     <div class="text">
                         <h4>НЕДОРОГИЕ и НЕУБИВАЕМЫЕ</h4>
-                        <p><span>25 червня 2020</span> <span>116 267 переглядів</span> </p>
+                        <p><span>25 червня 2020</span> <span>116 267 переглядів</span></p>
                     </div>
                 </div>
                 <div class="card">
@@ -484,7 +459,7 @@
                     </div>
                     <div class="text">
                         <h4>ЧТО НОВОГО в Hator Hypergang EVO ?</h4>
-                        <p><span>9 травня 2020</span> <span>131 262 перегляда</span> </p>
+                        <p><span>9 травня 2020</span> <span>131 262 перегляда</span></p>
                     </div>
                 </div>
                 <div class="card">
@@ -493,7 +468,7 @@
                     </div>
                     <div class="text">
                         <h4>Наушники HATOR Hypergang EVO</h4>
-                        <p><span>2 липня 2020</span> <span>28 002 перегляда</span> </p>
+                        <p><span>2 липня 2020</span> <span>28 002 перегляда</span></p>
                     </div>
                 </div>
                 <div class="card">
@@ -502,7 +477,7 @@
                     </div>
                     <div class="text">
                         <h4>Мои наушники для Call of Duty Mobile | Игровая</h4>
-                        <p><span>22 березня 2020</span> <span> 617 переглядів</span> </p>
+                        <p><span>22 березня 2020</span> <span> 617 переглядів</span></p>
                     </div>
                 </div>
                 <div class="card">
@@ -511,7 +486,7 @@
                     </div>
                     <div class="text">
                         <h4>Виграєш КОЖЕН клатч! Королі позиціонування -</h4>
-                        <p><span>17 серпня</span> <span>293 перегляда</span> </p>
+                        <p><span>17 серпня</span> <span>293 перегляда</span></p>
                     </div>
                 </div>
             </div>
@@ -555,54 +530,6 @@
         </div>
     </div>
 </div>
-</div>
-<div class="copy_info">
-    <div class="img">
-        {{--        <span><i class="fa-solid fa-basket-shopping"></i></span>--}}
-        <img src="img/ek-bottom-icon-2.svg" alt="">
-    </div>
-    <div class="text">
-        <p>E-Katalog — каталог описів і цін на побутову і комп'ютерну техніку, електроніку, товари для дому та офісу. Наше завдання — допомогти підібрати і купити
-            потрібну модель за найкращою ціною в інтернет-магазинах. В каталозі можна знайти всю необхідну для вибору інформацію — порівняння товарів, підбір
-            моделей за параметрами, детальні описи, пошук товару за назвою, відгуки користувачів, фотогалереї товарів, глосарій термінів, огляди, інструкції,
-            рейтинг товарів, рекомендації експертів, каталог брендів і багато іншого. Передрук будь-яких матеріалів тільки за письмовою згодою редакції.</p>
-    </div>
-</div>
-<div class="bottom_nav">
-    <div class="container">
-        <div class="about_project">
-            <h4>Про проект</h4>
-            <ul>
-                <li>Як нам зателефонувати?</li>
-                <li>Розміщення прайс-листів</li>
-                <li>Конфіденційність</li>
-                <li class="color">Запитання й побажання щодо сайту</li>
-                <li>Популяризувати проєкт</li>
-            </ul>
-        </div>
-        <div class="others_country">
-            <h4>Ми в інших країнах</h4>
-            <ul>
-                <li>Україна</li>
-                <li>Велика Британія</li>
-                <li>США</li>
-                <li>Польща</li>
-                <li>Казахстан</li>
-            </ul>
-        </div>
-        <div class="social">
-            <h4>Слідкуйте за нами в додатках і соцмережах</h4>
-            <ul>
-                <li class="border"><span><i class="fa-brands fa-google-play"></i></span>Play Market</li>
-                <li class="border"><span><i class="fa-brands fa-apple"></i></span>App Store</li>
-                <li class="none"><span><i class="fa-brands fa-youtube"></i></span></li>
-                <li class="none"><span><i class="fa-brands fa-facebook-square"></i></span></li>
-                <li class="none"><span><i class="fa-brands fa-instagram"></i></span></li>
-            </ul>
-        </div>
-    </div>
-    <em><span><i class="fa-solid fa-spell-check"></i></span>Знайшли помилку на цій сторінці? Виділіть її та натисніть Ctrl+Enter</em>
-</div>
-<script src="https://kit.fontawesome.com/1e05c9e939.js" crossorigin="anonymous"></script>
-</body>
+
+@stop
 

@@ -65,4 +65,25 @@ class ProductController extends Controller
             ->with("product", $product)
             ->with("imgs", $imgs);
     }
+    public function coment()
+    {
+        $product = Product::where("id", 6)->first();
+        $imgs = Img::where("product_id", 2)->get();
+//        dd($imgs);
+//        dd($product);
+        return view('product.coment')
+            ->with("product", $product)
+            ->with("imgs", $imgs);
+    }
+    public function app_main()
+    {
+        $product = Product::where("id", 6)->first();
+        $imgs = Img::where("product_id", 2)->get();
+//        dd($imgs);
+//        dd($product);
+        return view('layout.app_main')
+            ->with("product", $product)
+            ->with("imgs", $imgs);
+    }
+
 }

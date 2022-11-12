@@ -19,3 +19,6 @@ Route::get('/test',[ProductController::class, "test"] )->name("test");
 Route::get('/description',[ProductController::class, "description"] )->name("description");
 Route::get('/buy',[ProductController::class, "buy"] )->name("buy");
 Route::get('/useful',[ProductController::class, "useful"] )->name("useful");
+Route::get('/coment',[ProductController::class, "coment"] )->name("coment");
+Route::get('/app_main',[ProductController::class, "app_main"] )->name("app_main");
+
