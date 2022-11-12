@@ -199,7 +199,7 @@
                         <div class="question">
                             <p>Відгук корисний?</p>
                         </div>
-                        <div class="br">
+                        <div class="hr">
 
                         </div>
                         <div class="or">
@@ -227,7 +227,7 @@
                         <div class="question">
                             <p>Відгук корисний?</p>
                         </div>
-                        <div class="br">
+                        <div class="hr">
 
                         </div>
                         <div class="or">
@@ -258,7 +258,7 @@
                         <div class="question">
                             <p>Відгук корисний?</p>
                         </div>
-                        <div class="br">
+                        <div class="hr">
 
                         </div>
                         <div class="or">
@@ -286,12 +286,12 @@
                         <div class="question">
                             <p>Відгук корисний?</p>
                         </div>
-                        <div class="br">
+                        <div class="hr">
 
                         </div>
                         <div class="or">
-                            <em>Так</em>
-                            <em>Ні</em>
+                            <em>Так <span>0</span></em>
+                            <em>Ні <span>0</span></em>
                         </div>
                     </div>
                     <div class="text">
@@ -314,7 +314,7 @@
                         <div class="question">
                             <p>Відгук корисний?</p>
                         </div>
-                        <div class="br">
+                        <div class="hr">
 
                         </div>
                         <div class="or">
@@ -349,7 +349,7 @@
                         <div class="question">
                             <p>Відгук корисний?</p>
                         </div>
-                        <div class="br">
+                        <div class="hr">
 
                         </div>
                         <div class="or">
@@ -377,7 +377,7 @@
                         <div class="question">
                             <p>Відгук корисний?</p>
                         </div>
-                        <div class="br">
+                        <div class="hr">
 
                         </div>
                         <div class="or">

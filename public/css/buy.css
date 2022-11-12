@@ -48,6 +48,24 @@
     margin-top: 10px;
     border-top: 1px solid #505050;
 }
-.container .cardList .card {
+.container .card .useful{
+    padding: 5px 20px 10px;
+    width: 80px;
+}
+.container .card .useful .question{
+    font-size: 10px;
+    color: #868689;
+    text-align: center;
+}
+.container .card .useful .hr{
+    width: 80px;
+    height: 4px;
+    background: #38383a;
+    margin: 7px 0;
+}
+.container .card .text{
+    width: 840px;
+}
+.container .card.or{
 
 }
