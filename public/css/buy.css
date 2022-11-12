@@ -72,10 +72,28 @@
 }
 .container .card .or{
     font-size: 12px;
+
+}
+.container .card .red span{
+    position: absolute;
+    top: 7px;
+    left: 13px;
+    font-size: 10px;
+}
+.container .card .green span{
+    position: absolute;
+    top: 7px;
+    left: 21px;
+    font-size: 10px;
 }
 .cardList .card .or .green{
     color: #298029;
+    position: relative;
+    padding-right: 10px;
 }
- .cardList.card .or .red{
+ .cardList .card .or .red{
     color: #fd7059;
+     position: relative;
+     padding-right: 10px;
 }
+

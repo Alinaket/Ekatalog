@@ -203,8 +203,8 @@
 
                         </div>
                         <div class="or">
-                            <em>Так</em>
-                            <em>Ні</em>
+                            <p class="green">Так <span>0</span></p>
+                            <p class="red">Ні<span>0</span></p>
                         </div>
                     </div>
                     <div class="text">
@@ -231,8 +231,8 @@
 
                         </div>
                         <div class="or">
-                            <em>Так</em>
-                            <em>Ні</em>
+                            <p class="green">Так <span>0</span></p>
+                            <p class="red">Ні<span>0</span></p>
                         </div>
                     </div>
                     <div class="text">
@@ -262,8 +262,8 @@
 
                         </div>
                         <div class="or">
-                            <em>Так</em>
-                            <em>Ні</em>
+                            <p class="green">Так <span>0</span></p>
+                            <p class="red">Ні<span>0</span></p>
                         </div>
                     </div>
                     <div class="text">
@@ -318,8 +318,8 @@
 
                         </div>
                         <div class="or">
-                            <em>Так</em>
-                            <em>Ні</em>
+                            <p class="green">Так <span>0</span></p>
+                            <p class="red">Ні<span>0</span></p>
                         </div>
                     </div>
                     <div class="text">
@@ -353,8 +353,8 @@
 
                         </div>
                         <div class="or">
-                            <em>Так</em>
-                            <em>Ні</em>
+                            <p class="green">Так <span>0</span></p>
+                            <p class="red">Ні<span>0</span></p>
                         </div>
                     </div>
                     <div class="text">
@@ -381,8 +381,8 @@
 
                         </div>
                         <div class="or">
-                            <em>Так</em>
-                            <em>Ні</em>
+                            <p class="green">Так <span>0</span></p>
+                            <p class="red">Ні<span>0</span></p>
                         </div>
                     </div>
                     <div class="text">
