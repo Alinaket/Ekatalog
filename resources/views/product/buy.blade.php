@@ -290,8 +290,8 @@
 
                         </div>
                         <div class="or">
-                            <em>Так <span>0</span></em>
-                            <em>Ні <span>0</span></em>
+                            <p class="green">Так <span>0</span></p>
+                            <p class="red">Ні<span>0</span></p>
                         </div>
                     </div>
                     <div class="text">

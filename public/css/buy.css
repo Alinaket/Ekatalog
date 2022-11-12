@@ -66,6 +66,16 @@
 .container .card .text{
     width: 840px;
 }
-.container .card.or{
-
+.container .card .or{
+    display: flex;
+    justify-content: space-between;
+}
+.container .card .or{
+    font-size: 12px;
+}
+.cardList .card .or .green{
+    color: #298029;
+}
+ .cardList.card .or .red{
+    color: #fd7059;
 }
