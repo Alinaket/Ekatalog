@@ -34,11 +34,11 @@ class ProductController extends Controller
             ->with("product", $product);
     }
 
-    public function description()
+    public function description(Request $request)
     {
         $product = Product::where("id", 6)->first();
         $imgs = Img::where("product_id", 2)->get();
-//        dd($imgs);
+//        dd($request->route()->getName());
 //        dd($product);
         return view('product.description')
             ->with("product", $product)
