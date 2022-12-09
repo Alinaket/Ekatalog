@@ -86,4 +86,13 @@ class ProductController extends Controller
             ->with("imgs", $imgs);
     }
 
+    public function use()
+    {
+        $product = Product::where("id", 6)->first();
+        $imgs = Img::where("product_id", 2)->get();
+        return view('product.use')
+            ->with("product", $product)
+            ->with("imgs", $imgs);
+    }
+
 }

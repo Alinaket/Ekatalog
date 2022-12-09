@@ -17,10 +17,10 @@
             <li><a href="{{route("useful")}}">ВІДГУКИ <span>16</span></a>  </li>
 
             {{--боковуха шось курити а блок вообще здох--}}
-            <li>ОБГОВОРЕННЯ <span>5</span></li>
+            <li><a href="{{route("coment")}}">ОБГОВОРЕННЯ <span>5</span></a></li>
 
-            {{-- №2 ще ся не родило--}}
-            <li><a href="#"></a>КОРИСНЕ <span>1</span></li>
+            {{-- №2 детьо--}}
+            <li><a href="{{route("use")}}">КОРИСНЕ</a> <span>1</span></li>
         </ul>
     </div>
     <div class="container">

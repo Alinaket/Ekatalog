@@ -1,9 +1,9 @@
 @extends("layout.app_main")
 @section("content")
-    @include(".product.component.heder")
-    <div class="content">
 
-        <div class="content_product">
+<div class="content">
+    <div class="content_product">
+        @include(".product.component.heder")
         <div class="question">
             <h2>Питання-відповідь по Hator Hypergang EVO <span>Поставити запитання</span></h2>
             <div class="cardList">
@@ -62,10 +62,10 @@
                 {{--                <em>Показано <span>3</span> із <span>5</span> запитань</em>--}}
                 {{--                <p>Ще <span>2</span> пропозицій</p>--}}
             </div>
-        </div>
+    </div>
+{{--        @include("product.component.parameters")--}}
+        @stop
+</div>
 
-    @include("product.component.parameters")
 
-        </div>
-@stop
 
