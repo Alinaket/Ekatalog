@@ -7,11 +7,20 @@
     </div>
     <div class="info">
         <ul class="info_product">
-            <li><a href="#">ДЕ КУПИТИ <span>32</span></a></li>
+            {{--дєтьо №1--}}
+            <li><a href="{{route("buy")}}">ДЕ КУПИТИ <span>32</span></a></li>
+
+            {{--готово UWU но не точно ПЕРЕВІРИТИ!!!--}}
             <li><a href="{{route("description")}}">ОПИС <span></span></a></li>
-            <li class="active"><a href="{{route("coment")}}">ВІДГУКИ <span>16</span></a>  </li>
-            <li><a href="{{route("buy")}}">ОБГОВОРЕННЯ <span>5</span></a></li>
-            <li>КОРИСНЕ <span>1</span></li>
+
+            {{-- ВАЗЫВЗАЫВАЫЗВАВАЗЫВАЗВА --}}
+            <li><a href="{{route("useful")}}">ВІДГУКИ <span>16</span></a>  </li>
+
+            {{--боковуха шось курити а блок вообще здох--}}
+            <li>ОБГОВОРЕННЯ <span>5</span></li>
+
+            {{-- №2 ще ся не родило--}}
+            <li><a href="#"></a>КОРИСНЕ <span>1</span></li>
         </ul>
     </div>
     <div class="container">
