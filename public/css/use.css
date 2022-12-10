@@ -1,4 +1,4 @@
-.container .cardList .card{
+.container .cardList .card_useful{
     border-top: none;
     padding: 0px 20px 25px 0px;
     width: 600px;
@@ -8,17 +8,17 @@
     justify-content: space-between;
     height: 200px;
 }
-.card .text p{
+.card_useful .text p{
     font-size: 10px;
     text-decoration: underline #cccccd;
     padding-top: 2px;
 }
-.cardList .card .container h3 {
+.cardList .card_useful .container h3 {
     padding: 0;
     font-size: 21px;
     font-weight: 400;
 }
-.cardList .card .text .discuss{
+.cardList .card_useful .text .discuss{
     margin: 0;
     padding-top: 3px;
     font-size: 13px;
@@ -40,7 +40,7 @@
     border: none;
     border-radius: 3px;
 }
-.container .card .useful{
+.container .card_useful .useful{
     padding-left: 0;
 }
 .title h2{
