@@ -56,6 +56,10 @@
     border: 1px solid rgb(105, 105, 108);
     font-weight: 700;
 }
+.product .info_product a{
+    color: #969699;
+    text-decoration: none;
+}
 .product .info_product .active{
     border: 1px solid #969699;
     color: white;
@@ -160,11 +164,6 @@
     padding-right: 5px;
     font-size: 20px;
 }
-
-
-
-
-
 .headphones{
     width: 960px;
     margin: 5px 0 20px;

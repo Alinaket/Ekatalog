@@ -1,4 +1,53 @@
-.container .card{
+.container .cardList .card{
     border-top: none;
-
+    padding: 0px 20px 25px 0px;
+    width: 600px;
 }
+.container .cardList{
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+}
+.card .text p{
+    font-size: 10px;
+    text-decoration: underline #cccccd;
+    padding-top: 2px;
+}
+.cardList .card .container h3 {
+    padding: 0;
+    font-size: 21px;
+    font-weight: 400;
+}
+.cardList .card .text .discuss{
+    margin: 0;
+    padding-top: 3px;
+    font-size: 13px;
+}
+.card_useful .text p span{
+    background: #454649;
+    text-decoration: none;
+    margin-right:3px;
+    padding: 0 2px;
+}
+.button button{
+    background: linear-gradient(#fea94a,#ff6808);
+    font-weight: 700;
+    font-size:12px;
+    padding: 10px 20px 13px 20px;
+    width: 150px;
+    color: #fff;
+    display: inline-block;
+    border: none;
+    border-radius: 3px;
+}
+.container .card .useful{
+    padding-left: 0;
+}
+.title h2{
+    font-size: 14px;
+    color: #cccccd;
+    font-weight: 700;
+    padding: 0 7px;
+}
+
+
