@@ -444,7 +444,7 @@
 .other_headphones .active{
     background: #303133;
 }
-.other_headphones h2{
+.other_headphones .text h2{
     color: #cccccd;
     font-size: 22px;
     font-weight: 500;

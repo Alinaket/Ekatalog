@@ -143,7 +143,9 @@
         </div>
 
         <div class="other_headphones">
-            <h2>Купити Hator Hypergang EVO <em>Усі ціни 35 →</em></h2>
+            <div class="text">
+                <h2>Купити Hator Hypergang EVO <em>Усі ціни 35 →</em></h2>
+            </div>
             <div class="cardList">
                 <div class="card active">
                     <div class="img_product">
