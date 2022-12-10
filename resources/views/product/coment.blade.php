@@ -1,6 +1,5 @@
 @extends("layout.app_main")
 @section("content")
-
 <div class="content">
     <div class="content_product">
         @include(".product.component.heder")
@@ -62,10 +61,8 @@
                 {{--                <em>Показано <span>3</span> із <span>5</span> запитань</em>--}}
                 {{--                <p>Ще <span>2</span> пропозицій</p>--}}
             </div>
+        </div>
     </div>
-{{--        @include("product.component.parameters")--}}
-        @stop
+        @include("product.component.parameters")
 </div>
-
-
-
+@stop
