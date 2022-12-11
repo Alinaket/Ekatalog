@@ -104,27 +104,26 @@
 <div class="popular">
     <h2>Популярні моделі</h2>
     <div class="content">
-
-    </div>
-    <div class="slider_wrapper">
         <div class="icon_arrow">
             <span onclick="sliders(this, 0)"><i class="fa-solid fa-arrow-left"></i></span>
         </div>
-        <div class="icon_arrow">
+        <div class="icon_arrow right">
             <span onclick="sliders(this, 1)"><i class="fa-solid fa-arrow-right"></i></span>
         </div>
-        <div class="cardList">
-            @foreach($products as $item)
-                <a href="{{route("product", ["id"=>$item->id])}}" class="card">
-                    <div class="img">
-                        <img src="{{asset($item->img)}}" alt="">
-                    </div>
-                    <div class="text">
-                        <h3>{{$item->name}}</h3>
-                        <span>{{$item->price}}</span>
-                    </div>
-                </a>
-            @endforeach
+        <div class="slider_wrapper">
+            <div class="cardList test">
+                @foreach($products as $item)
+                    <a href="{{route("product", ["id"=>$item->id])}}" class="card">
+                        <div class="img">
+                            <img src="{{asset($item->img)}}" alt="">
+                        </div>
+                        <div class="text">
+                            <h3>{{$item->name}}</h3>
+                            <span>{{$item->price}}</span>
+                        </div>
+                    </a>
+                @endforeach
+            </div>
         </div>
     </div>
 </div>
@@ -134,7 +133,7 @@
         <div class="icon_arrow">
             <span onclick="sliders(this, 0)"><i class="fa-solid fa-arrow-left"></i></span>
         </div>
-        <div class="icon_arrow">
+        <div class="icon_arrow right">
             <span onclick="sliders(this, 1)"><i class="fa-solid fa-arrow-right"></i></span>
         </div>
         <div class="slider_wrapper">
