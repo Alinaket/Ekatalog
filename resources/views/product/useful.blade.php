@@ -1,5 +1,8 @@
 @extends("layout.app_main")
+@section("content")
 <div class="content">
+    <div class="content_product">
+        @include("product.component.heder")
         <div class="reviews">
             <div class="text">
                 <div class="title">
@@ -367,3 +370,6 @@
             </div>
         </div>
     </div>
+    @include("product.component.parameters")
+    </div>
+@stop
