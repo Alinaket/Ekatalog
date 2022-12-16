@@ -1,0 +1,8 @@
+.container .cardList{
+    display: inline;
+}
+.reviews h3 span{
+    background: linear-gradient(#fea94a,#ff6808);
+    color: white;
+    border: none;
+}

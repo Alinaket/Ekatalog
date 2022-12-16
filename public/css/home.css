@@ -7,6 +7,7 @@
 }
 body{
     background: #202124;
+    max-width: 1903px;
 }
 
 .dark_side{
@@ -163,12 +164,12 @@ body{
 .icon_arrow .fa-arrow-left{
     position: absolute;
     left: 170px;
-    top: 365px
+    top: 40%;
 }
 .icon_arrow .fa-arrow-right{
     position: absolute;
     left: 86.5%;
-    top: 365px
+    top: 40%;
 }
 .add .circles{
     text-align: center;
@@ -191,7 +192,7 @@ body{
 .popular h2{
     font-size: 33px;
     color: rgb(150, 150, 153);
-    margin: 0 260px 40px;
+    margin: 40px 260px 40px;
     padding: 0 20px;
     font-weight: 700;
 }
@@ -243,15 +244,15 @@ body{
 .popular .icon_arrow .fa-arrow-left{
     position: absolute;
     left: 170px;
-    top: 50%;
+    top: 40%;
     transform: translate(0, -50%);
 }.popular .icon_arrow .fa-arrow-right{
     position: absolute;
     right: 170px;
-    top: 50%;
+    top: 40%;
      transform: translate(0, -50%);
 }
- .popular .content{
+.popular .content{
     position: relative;
  }
 .recom{

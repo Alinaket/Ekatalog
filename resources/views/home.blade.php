@@ -72,7 +72,7 @@
     </ul>
 </div>
 <div class="add">
-    <div class="icon_arrow">
+    <div class="icon_arrow icon_arrow_title">
         <span><i class="fa-solid fa-arrow-left"></i></span>
     </div>
     <div class="img">

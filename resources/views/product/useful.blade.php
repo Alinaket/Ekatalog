@@ -29,7 +29,7 @@
             </div>
         </div>
         <div class="container">
-            <div class="cardList">
+            <div class="cardList width">
                 <div class="card">
                     <div class="useful">
                         <div class="question">
@@ -237,10 +237,9 @@
                     </div>
                 </div>
             </div>
-            <div class="more_buy">
-                <em></em>
-                <p>Ще 7 відгуків</p>
-            </div>
+                <div class="more_buy">
+                    <p>Ще 7 відгуків</p>
+                </div>
         </div>
         <div class="other_headphones">
             <h2>Купити Hator Hypergang EVO <em>Усі ціни 35 →</em></h2>
@@ -371,5 +370,8 @@
         </div>
     </div>
     @include("product.component.parameters")
-    </div>
+</div>
+
+
+
 @stop
