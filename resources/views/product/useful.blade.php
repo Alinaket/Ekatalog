@@ -241,7 +241,7 @@
                     <p>Ще 7 відгуків</p>
                 </div>
         </div>
-        <div class="other_headphones">
+        <div class="other_headphones font">
             <h2>Купити Hator Hypergang EVO <em>Усі ціни 35 →</em></h2>
             <div class="cardList">
                 <div class="card active">

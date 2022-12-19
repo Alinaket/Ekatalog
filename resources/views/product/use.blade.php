@@ -7,7 +7,7 @@
                 <div class="title">
                     <h2>Корисні матеріали по Hator Hypergang EVO</h2>
                 </div>
-                <div class="cardList">
+                <div class="cardList card_use">
                     <div class="card card_useful">
                         <div class="useful">
                             <div class="question">
@@ -33,6 +33,7 @@
                         <button>Додати посилання</button>
                     </div>
                 </div>
+
             </div>
         </div>
         @include("product.component.parameters")

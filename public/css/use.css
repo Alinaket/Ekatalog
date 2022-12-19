@@ -3,7 +3,7 @@
     padding: 0px 20px 25px 0px;
     width: 600px;
 }
-.container .cardList{
+.container .card_use{
     display: flex;
     justify-content: space-between;
     height: 200px;
@@ -49,5 +49,10 @@
     font-weight: 700;
     padding: 0 7px;
 }
-
+.other_headphones .font{
+    font-size: 22px;
+    font-weight: 600;
+    color: #cccccd;
+    margin: 18px 0 13px ;
+}
 

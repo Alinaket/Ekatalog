@@ -1,4 +1,4 @@
-.container .cardList{
+.container .width{
     display: inline;
 }
 .reviews h3 span{
@@ -6,3 +6,4 @@
     color: white;
     border: none;
 }
+
